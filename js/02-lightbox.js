@@ -14,5 +14,5 @@ function createMarkupGallery(array) {
    })
    .join("");
 }
-
-console.log(galleryItems);
+const lightbox = new SimpleLightbox('.gallery a', { captions: true, captionsData: 'alt', captionDelay: 250 }); 
+function onGalleryItemClick(event) { };
